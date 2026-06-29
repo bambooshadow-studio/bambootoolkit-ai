@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@bambooshadow/bamboo-toolkit",
   "version": "1.0.0",
   "description": "AI automation plugin pack for Paperclip - BambooShadow Studio",
@@ -9,7 +9,17 @@
     "dev": "paperclip-plugin-dev-server",
     "test": "node --experimental-strip-types --experimental-loader ./src/__tests__/loader.mjs --test src/__tests__/*.test.ts"
   },
-  "keywords": ["paperclip","plugin","automation","ai"],
+  "keywords": [
+    "paperclip",
+    "plugin",
+    "automation",
+    "ai"
+  ],
   "author": "BambooShadow Studio",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
 }

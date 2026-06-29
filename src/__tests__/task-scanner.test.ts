@@ -1,6 +1,6 @@
-﻿import { describe, it } from 'node:test';
+import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { TaskScanner, Task } from '../task-scanner';
+import { TaskScanner, Task } from '../task-scanner.js';
 
 describe('TaskScanner', () => {
   const scanner = new TaskScanner();
