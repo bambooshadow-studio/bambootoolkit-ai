@@ -2,10 +2,12 @@
   "name": "@bambooshadow/bamboo-toolkit",
   "version": "1.0.0",
   "description": "AI automation plugin pack for Paperclip - BambooShadow Studio",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "paperclip-plugin-dev-server"
+    "dev": "paperclip-plugin-dev-server",
+    "test": "node --experimental-strip-types --experimental-loader ./src/__tests__/loader.mjs --test src/__tests__/*.test.ts"
   },
   "keywords": ["paperclip","plugin","automation","ai"],
   "author": "BambooShadow Studio",
