@@ -1,0 +1,13 @@
+﻿{
+  "name": "@bambooshadow/bamboo-toolkit",
+  "version": "1.0.0",
+  "description": "AI automation plugin pack for Paperclip - BambooShadow Studio",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "paperclip-plugin-dev-server"
+  },
+  "keywords": ["paperclip","plugin","automation","ai"],
+  "author": "BambooShadow Studio",
+  "license": "MIT"
+}
