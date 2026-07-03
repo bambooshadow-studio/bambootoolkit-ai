@@ -1,12 +1,12 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert';
-import { TaskScanner, Task } from '../task-scanner.js';
+import { TaskScanner, Task } from '../task-scanner';
 
 describe('TaskScanner', () => {
   const scanner = new TaskScanner();
 
-  it('should have default skillId', () => {
-    assert.strictEqual(scanner.skillId, 'dd4ff9a5-3849-48de-b238-1c243840bda9');
+  it('should have default empty skillId when no config', () => {
+    assert.strictEqual(scanner.skillId, '');
   });
 
   it('should accept custom skillId', () => {
