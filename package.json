@@ -1,6 +1,6 @@
 {
   "name": "@bamboo-shadow-studio/bamboo-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI automation plugin pack for Paperclip - auto-scan task marketplaces, apply for tasks, track earnings.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
