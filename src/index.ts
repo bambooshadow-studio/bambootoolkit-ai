@@ -2,6 +2,12 @@ export { TaskScanner, UUMitClient } from './task-scanner.js';
 export type { Task, TaskApplication, Order, Deliverable, WalletInfo, ApiResponse } from './task-scanner.js';
 export { Scheduler } from './scheduler.js';
 export type { ScanCycleResult } from './scheduler.js';
+export { RevenueDashboard } from './revenue-dashboard.js';
+export type { RevenueReport, PlatformSummary } from './revenue-dashboard.js';
+export { MultiPlatformScanner } from './platforms/index.js';
+export { GitHubBountyAdapter } from './platforms/github.js';
+export { GiteeBountyAdapter } from './platforms/gitee.js';
+export type { PlatformAdapter, PlatformTask, PlatformOrder, PlatformBalance, ScanResult } from './platforms/types.js';
 export { loadConfig } from './config.js';
 export type { ToolkitConfig, UUMitConfig } from './config.js';
 
