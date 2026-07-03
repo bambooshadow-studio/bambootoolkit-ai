@@ -14,18 +14,17 @@ Turn your Paperclip company into an autonomous revenue engine.
 
 ## Install
 
-paperclip plugin install @bambooshadow/bamboo-toolkit
+npm install @bambooshadow/bamboo-toolkit
 
 ## Pricing
 
 | Tier | Price |
 |------|:-----:|
-| Free |  |
-| Pro | .99/mo |
-| Studio | /mo |
+| Free | $0 |
+| Pro | $9.99/mo |
+| Studio | $49/mo |
 
 ## Support
 - GitHub: bambooshadow-studio
-- Discord: #bamboo-toolkit
 
 MIT © 2026 BambooShadow Studio
