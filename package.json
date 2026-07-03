@@ -1,13 +1,17 @@
 {
   "name": "@bamboo-shadow-studio/bamboo-toolkit",
   "version": "1.0.2",
-  "description": "AI automation plugin pack for Paperclip - auto-scan task marketplaces, apply for tasks, track earnings.",
+  "description": "AI automation plugin pack for Paperclip + MCP server - auto-scan task marketplaces, apply for tasks, track earnings.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "bamboo-toolkit-mcp": "./dist/mcp-server/index.js"
+  },
   "type": "commonjs",
   "scripts": {
     "build": "tsc",
-    "test": "node --require ts-node/register src/__tests__/task-scanner.test.ts",
+    "test": "npx tsx --test src/__tests__/task-scanner.test.ts",
+    "start:mcp": "node dist/mcp-server/index.js",
     "prepublish": "tsc",
     "dev": "tsc --watch"
   },
@@ -26,5 +30,8 @@
     "ts-node": "^10.9.2",
     "tsx": "^4.22.5",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
   }
 }
